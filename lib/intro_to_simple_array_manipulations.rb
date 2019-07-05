@@ -19,4 +19,9 @@ def using_shift(my_favorite_cities)
   return x
 end
 
-def shift_with_args()
+def shift_with_args(ice_cream_brands)
+  y = ice_cream_brands.shift(2)
+  return y
+end
+
+def using_concat()
